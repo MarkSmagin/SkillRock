@@ -1,0 +1,36 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.slider {
+    display: flex;
+    
+}
+.slider img {
+    width: 100%;
+    height: 80vh;;
+}
+.button-prev,
+.button-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #62274b;
+    border-radius: 50%;
+    font-size: 50px;
+    color: white;
+}
+.button-prev:hover,
+.button-next:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containder">
+        <h1>Мой ToDo-лист</h1>
+        <div class="todo__body">
+            <div class="add-new-task">
+                <input type="text" class="add-new-task__input" id="newTaskText" placeholder="Введите новую задачу">
+                <button class="add-new-task__button" id="addNewTask">Добавить</button>
+            </div>
+            <div class="todo__filter">
+                <button class="todo__filter-option checked" id="all">Все</button>
+                <button class="todo__filter-option" id="active">Активные</button>
+                <button class="todo__filter-option" id="done">Завершенные</button>
+            </div>
+            <ul class="todo__items" id="todoItems">
+                <li class="todo__item">
+                    Выйти на прогулку
+                    <button class="todo__item-delete"></button>
+                </li>
+                <li class="todo__item done">
+                    Прочесть книгу
+                    <button class="todo__item-delete"></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

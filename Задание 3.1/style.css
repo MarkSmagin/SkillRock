@@ -1,0 +1,43 @@
+.preloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    z-index: 1001;
+    display: none;
+}
+.preloader span{
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.load {
+    display: block;
+}
+.people-list{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+.people-list__item{
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #7b345b;
+    margin-bottom: 10px;
+}
+.people-list__item:last-child{
+    margin-bottom: 0;
+}
+.people-list__item img{
+    margin-right: 20px;
+}
+.people-list__item-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
